@@ -141,7 +141,8 @@ function draw() {
     redCG.setLifetimeEach(-1);
 
     //write condition for calling reset( )
-  if(keyDown(UP_ARROW)){
+  if(keyDown("UP_ARROW"
+            )){
     reset();
   }
 }
